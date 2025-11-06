@@ -1,17 +1,14 @@
-# Homoglyph Attack Generator
+# 🐧 punnycoode-attack
 This is a simple command-line script to demonstrate a homoglyph attack. It replaces common ASCII (Latin) characters in a string with visually identical (or similar) Cyrillic characters.
 
 This is often used in phishing attacks to create deceptive domain names or usernames.
 
-Prerequisites
-Node.js (which includes node)
-
-How to Use
-Clone or download this repository (or just save the .js file).
+Prerequisites: Node.js (which includes node)
 
 Open your terminal or command prompt.
 
 Navigate to the directory where the script is saved.
 
-Run the script using node, followed by the script name and the word you want to forge:
-node <script_name.js> <word_to_forge>
+Example of how to run:
+```bash
+node  file.js
