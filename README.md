@@ -1,4 +1,3 @@
-# Punycode_Attack
 # Homoglyph Attack Generator
 This is a simple command-line script to demonstrate a homoglyph attack. It replaces common ASCII (Latin) characters in a string with visually identical (or similar) Cyrillic characters.
 
