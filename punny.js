@@ -1,4 +1,4 @@
-// The homoglyph map (same as before)
+
 const homoglyphs = {
     'a': 'а', // 'a' Latin (ASCII) -> 'a' Cyrillic (U+0430)
     'e': 'е', // 'e' Latin (ASCII) -> 'e' Cyrillic (U+0435)
@@ -8,7 +8,7 @@ const homoglyphs = {
     'i': 'і'  // 'i' Latin (ASCII) -> 'i' Cyrillic with dot (U+0456)
 };
 
-// The substitution function (same as before)
+
 function createHomoglyph(text) {
     let result = text;
     for (const char in homoglyphs) {
